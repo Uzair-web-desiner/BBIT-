@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="url(#bbit-grad)" />
+  <!-- Academic Cap -->
+  <path d="M32 14L12 24L32 34L52 24L32 14Z" fill="#FFFFFF" />
+  <path d="M46 27V38C46 41.5 39.5 45 32 45C24.5 45 18 41.5 18 38V27L32 34L46 27Z" fill="#E2E8F0" opacity="0.9" />
+  <!-- Cap Tassel -->
+  <path d="M49 25.5V36C49 37.5 48 38.5 46.5 38.5" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" />
+  <circle cx="46.5" cy="39" r="2.5" fill="#38BDF8" />
+  <!-- Tech Binary / Circuit Accents -->
+  <circle cx="20" cy="50" r="2" fill="#38BDF8" />
+  <circle cx="44" cy="50" r="2" fill="#38BDF8" />
+  <line x1="22" y1="50" x2="42" y2="50" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3" />
+  <defs>
+    <linearGradient id="bbit-grad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="0.5" stop-color="#1E3A8A" />
+      <stop offset="1" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+</svg>

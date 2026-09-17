@@ -1,0 +1,7 @@
+# BBIT Evening Class Portal
+# Dependencies & local files to ignore
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+scratch/
