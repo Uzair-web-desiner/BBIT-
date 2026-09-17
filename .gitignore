@@ -1,7 +1,14 @@
-# BBIT Evening Class Portal
-# Dependencies & local files to ignore
-node_modules/
+# OS metadata & temporary files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local logs & scratch files
 *.log
 scratch/
