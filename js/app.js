@@ -329,31 +329,31 @@
             </div>
           </div>
 
-          <!-- Category Navigation (Slides vs Notes) -->
+          <!-- Category Navigation (Teacher Notes vs Class Notes) -->
           <div class="course-category-nav">
             <button class="course-cat-btn active" data-tab-target="slides-${course.id}">
-              <span>📽️ Lecture Slides</span>
+              <span>👨‍🏫 Teacher Notes</span>
               <span class="cat-counter">${slides.length}</span>
             </button>
             <button class="course-cat-btn" data-tab-target="notes-${course.id}">
-              <span>📁 Class Notes & Resources</span>
+              <span>📁 Class Notes</span>
               <span class="cat-counter">${resources.length}</span>
             </button>
           </div>
 
-          <!-- Category 1: Lecture Slides Pane -->
+          <!-- Category 1: Teacher Notes Pane -->
           <div class="resource-pane" id="slides-${course.id}">
             <div class="resource-list">
-              ${slides.length === 0 ? '<p style="color: var(--text-muted); font-size: 0.9rem;">No slides uploaded yet for this course.</p>' : 
+              ${slides.length === 0 ? '<p style="color: var(--text-muted); font-size: 0.9rem;">No teacher notes uploaded yet for this course.</p>' : 
                 slides.map(slide => renderResourceItem(slide, course, 'slide')).join('')
               }
             </div>
           </div>
 
-          <!-- Category 2: Class Notes & Resources Pane -->
+          <!-- Category 2: Class Notes Pane -->
           <div class="resource-pane hidden" id="notes-${course.id}">
             <div class="resource-list">
-              ${resources.length === 0 ? '<p style="color: var(--text-muted); font-size: 0.9rem;">No resources added yet.</p>' : 
+              ${resources.length === 0 ? '<p style="color: var(--text-muted); font-size: 0.9rem;">No class notes added yet.</p>' : 
                 resources.map(res => renderResourceItem(res, course, 'resource')).join('')
               }
             </div>
