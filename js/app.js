@@ -309,16 +309,20 @@
     `;
 
     // 3. Render Course Cards
-    DOM.coursesContainer.innerHTML = semester.courses.map(course => {
+    DOM.coursesContainer.innerHTML = semester.courses.map((course, idx) => {
       const slides = course.slides || [];
       const resources = course.resources || [];
+      const variantIdx = (idx % 6) + 1;
 
       return `
-        <div class="course-card" id="course-${course.id}">
+        <div class="course-card course-theme-${variantIdx}" id="course-${course.id}">
           <!-- Course Header -->
           <div class="course-card-header">
             <div class="course-title-group">
-              <span class="course-code-badge">${escapeHTML(course.code)}</span>
+              <div class="course-badge-row">
+                <span class="course-code-badge">${escapeHTML(course.code)}</span>
+                <span class="course-index-tag">Course 0${idx + 1}</span>
+              </div>
               <h3 class="course-title">${escapeHTML(course.title)}</h3>
               <div class="course-instructor">
                 <span>👨‍🏫 ${escapeHTML(course.instructor)}</span>

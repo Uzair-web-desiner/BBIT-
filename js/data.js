@@ -99,9 +99,7 @@ const PORTAL_DATA = {
           instructor: "Dr. Asmat Khattak",
           creditHours: "3 (2-1)",
           description: "Foundational computer architecture, binary logic, and computation theory.",
-          slides: [
-            { id: "ict111-s1", title: "Slide 1", topic: "Computer Architecture", format: "PPTX", date: "Sep 02", size: "4.2 MB", url: "#" }
-          ],
+          slides: [],
           resources: []
         },
         {
