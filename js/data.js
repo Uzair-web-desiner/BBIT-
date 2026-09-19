@@ -110,7 +110,38 @@ const PORTAL_DATA = {
           creditHours: "3 (3-0)",
           description: "Quantitative and mathematical reasoning concepts for business decision-making.",
           slides: [],
-          resources: []
+          resources: [
+            {
+              id: "gqr101-r1",
+              title: "Solved Exercise 0.1",
+              type: "Exercise",
+              format: "PDF",
+              date: "Sep 18",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1XnpKNtrpn-p3xkO_zef_-tNnCyqLTJUy/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1XnpKNtrpn-p3xkO_zef_-tNnCyqLTJUy"
+            },
+            {
+              id: "gqr101-r2",
+              title: "Solved Exercise 0.2",
+              type: "Exercise",
+              format: "PDF",
+              date: "Sep 18",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1NrbWmPlFG4DWnC_p9BHsEFvmnMSNfuxY/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1NrbWmPlFG4DWnC_p9BHsEFvmnMSNfuxY"
+            },
+            {
+              id: "gqr101-r3",
+              title: "Solved Exercise 0.3",
+              type: "Exercise",
+              format: "PDF",
+              date: "Sep 18",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1co7jghCZuK6-SfjJBRXGfAFqOhNRCpcC/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1co7jghCZuK6-SfjJBRXGfAFqOhNRCpcC"
+            }
+          ]
         },
         {
           id: "geng101",
