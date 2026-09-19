@@ -286,6 +286,8 @@
     });
 
     // 2. Render Semester Overview Banner
+    const totalMaterials = totalSlides + totalResources;
+
     DOM.semesterBanner.innerHTML = `
       <div class="sem-banner-info">
         <span class="sem-banner-pill">${escapeHTML(semester.phase)}</span>
@@ -302,8 +304,8 @@
           <span class="sem-meta-lbl">Credits</span>
         </div>
         <div class="sem-meta-chip">
-          <span class="sem-meta-val">${totalSlides}</span>
-          <span class="sem-meta-lbl">Slides</span>
+          <span class="sem-meta-val">${totalMaterials}</span>
+          <span class="sem-meta-lbl">Notes</span>
         </div>
       </div>
     `;
