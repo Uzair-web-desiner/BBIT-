@@ -133,6 +133,26 @@ const PORTAL_DATA = {
           description: "Basic programming logic, algorithmic thinking, and problem-solving.",
           slides: [],
           resources: []
+        },
+        {
+          id: "itp101",
+          code: "ITP-101",
+          title: "Introduction to Philosophy",
+          instructor: "Dr. Shahid Gul",
+          creditHours: "3 (3-0)",
+          description: "Exploration of fundamental philosophical questions, logic, critical thinking, and ethics.",
+          slides: [],
+          resources: []
+        },
+        {
+          id: "hq101",
+          code: "HQ-101",
+          title: "Holy Quran",
+          instructor: "Dr. Ahmad Ali Badaat",
+          creditHours: "1 (1-0)",
+          description: "Study and understanding of the Holy Quran with translation and contextual interpretation.",
+          slides: [],
+          resources: []
         }
       ]
     },
