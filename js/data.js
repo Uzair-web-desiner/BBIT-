@@ -154,13 +154,23 @@ const PORTAL_DATA = {
           resources: [
             {
               id: "geng101-r1",
-              title: "Noun and Pronoun",
+              title: "Noun and Pronoun (HW)",
               type: "Class Notes",
               format: "PDF",
               date: "Sep 20",
               size: "Drive PDF",
               url: "https://drive.google.com/file/d/1hoYJON-yAt9I9G-PbnarLLUrMEupY17w/view?usp=sharing",
               downloadUrl: "https://drive.google.com/uc?export=download&id=1hoYJON-yAt9I9G-PbnarLLUrMEupY17w"
+            },
+            {
+              id: "geng101-r2",
+              title: "Nouns and Pronouns (AI)",
+              type: "Class Notes",
+              format: "PDF",
+              date: "Sep 20",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1zDsaHEUMNOCmypnij2fkeN3SvbzAdPn0/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1zDsaHEUMNOCmypnij2fkeN3SvbzAdPn0"
             }
           ]
         },
