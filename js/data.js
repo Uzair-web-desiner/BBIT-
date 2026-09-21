@@ -151,7 +151,18 @@ const PORTAL_DATA = {
           creditHours: "3 (3-0)",
           description: "Grammar, academic reading, essay writing, and analytical comprehension.",
           slides: [],
-          resources: []
+          resources: [
+            {
+              id: "geng101-r1",
+              title: "English Class Notes",
+              type: "Class Notes",
+              format: "PDF",
+              date: "Sep 20",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1hoYJON-yAt9I9G-PbnarLLUrMEupY17w/view?usp=sharing",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1hoYJON-yAt9I9G-PbnarLLUrMEupY17w"
+            }
+          ]
         },
         {
           id: "gicp101",
