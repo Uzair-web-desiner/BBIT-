@@ -154,7 +154,7 @@ const PORTAL_DATA = {
           resources: [
             {
               id: "geng101-r1",
-              title: "English Class Notes",
+              title: "Noun and Pronoun",
               type: "Class Notes",
               format: "PDF",
               date: "Sep 20",
