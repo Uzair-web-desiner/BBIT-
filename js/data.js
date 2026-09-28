@@ -192,6 +192,16 @@ const PORTAL_DATA = {
               size: "Drive PDF",
               url: "https://drive.google.com/file/d/1zDsaHEUMNOCmypnij2fkeN3SvbzAdPn0/view?usp=drive_link",
               downloadUrl: "https://drive.google.com/uc?export=download&id=1zDsaHEUMNOCmypnij2fkeN3SvbzAdPn0"
+            },
+            {
+              id: "geng101-r3",
+              title: "Verb, Adverb, Articles",
+              type: "Class Notes",
+              format: "PDF",
+              date: "Sep 28",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1vfN_8GGQD5K3x2Qx8By0PDYPaMsV5eLy/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1vfN_8GGQD5K3x2Qx8By0PDYPaMsV5eLy"
             }
           ]
         },
