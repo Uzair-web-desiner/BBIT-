@@ -88,7 +88,8 @@ const PORTAL_DATA = {
           creditHours: "3 (3-0)",
           description: "Introduction to management theory, planning, organizing, leading, and controlling.",
           slides: [
-            { id: "pom111-s1", title: "Slide 1", topic: "Intro to Management", format: "PPTX", date: "Sep 02", size: "Google Slides", url: "https://docs.google.com/presentation/d/1QT6gnQyquRp5b4Xxr5UBT4zJVhXhDN5QR_6iklkHgX0/edit?usp=sharing", downloadUrl: "https://docs.google.com/presentation/d/1QT6gnQyquRp5b4Xxr5UBT4zJVhXhDN5QR_6iklkHgX0/export/pptx" }
+            { id: "pom111-s1", title: "Slide 1", topic: "Intro to Management", format: "PPTX", date: "Sep 02", size: "Google Slides", url: "https://docs.google.com/presentation/d/1QT6gnQyquRp5b4Xxr5UBT4zJVhXhDN5QR_6iklkHgX0/edit?usp=sharing", downloadUrl: "https://docs.google.com/presentation/d/1QT6gnQyquRp5b4Xxr5UBT4zJVhXhDN5QR_6iklkHgX0/export/pptx" },
+            { id: "pom111-s2", title: "CHP 2", topic: "Chapter 2", format: "PDF", date: "Sep 28", size: "Drive PDF", url: "https://drive.google.com/file/d/1fdtKLOiby4UIB9nM_dPwYul_igZOEhaT/view?usp=drive_link", downloadUrl: "https://drive.google.com/uc?export=download&id=1fdtKLOiby4UIB9nM_dPwYul_igZOEhaT" }
           ],
           resources: []
         },
@@ -140,6 +141,26 @@ const PORTAL_DATA = {
               size: "Drive PDF",
               url: "https://drive.google.com/file/d/1co7jghCZuK6-SfjJBRXGfAFqOhNRCpcC/view?usp=drive_link",
               downloadUrl: "https://drive.google.com/uc?export=download&id=1co7jghCZuK6-SfjJBRXGfAFqOhNRCpcC"
+            },
+            {
+              id: "gqr101-r4",
+              title: "Solved Exercise 0.4",
+              type: "Exercise",
+              format: "PDF",
+              date: "Sep 28",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1m7sBPtVGN8Enn5Un38EacX9j6GqAY18r/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1m7sBPtVGN8Enn5Un38EacX9j6GqAY18r"
+            },
+            {
+              id: "gqr101-r5",
+              title: "Solved Exercise 1.2",
+              type: "Exercise",
+              format: "PDF",
+              date: "Sep 28",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1Q1TSMkGgapgmGwHPIoLLVgnv7V_DBj4F/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1Q1TSMkGgapgmGwHPIoLLVgnv7V_DBj4F"
             }
           ]
         },
@@ -201,8 +222,30 @@ const PORTAL_DATA = {
           instructor: "Dr. Ahmad Ali Badaat",
           creditHours: "1 (1-0)",
           description: "Study and understanding of the Holy Quran with translation and contextual interpretation.",
-          slides: [],
-          resources: []
+          slides: [
+            {
+              id: "hq101-s1",
+              title: "Work Book",
+              topic: "Workbook",
+              format: "PDF",
+              date: "Sep 28",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1yYEfd--0uZVosAOIDjQtZcmJsG2gkY-U/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1yYEfd--0uZVosAOIDjQtZcmJsG2gkY-U"
+            }
+          ],
+          resources: [
+            {
+              id: "hq101-r1",
+              title: "CHP 1-5 Solved",
+              type: "Class Notes",
+              format: "PDF",
+              date: "Sep 28",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1UMesb4sgOvWfBuzmnH5ruSRk7ZrM9IHf/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1UMesb4sgOvWfBuzmnH5ruSRk7ZrM9IHf"
+            }
+          ]
         }
       ]
     },
