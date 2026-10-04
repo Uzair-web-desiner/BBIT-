@@ -161,6 +161,16 @@ const PORTAL_DATA = {
               size: "Drive PDF",
               url: "https://drive.google.com/file/d/1Q1TSMkGgapgmGwHPIoLLVgnv7V_DBj4F/view?usp=drive_link",
               downloadUrl: "https://drive.google.com/uc?export=download&id=1Q1TSMkGgapgmGwHPIoLLVgnv7V_DBj4F"
+            },
+            {
+              id: "gqr101-r6",
+              title: "Solved Exercise 1.3",
+              type: "Exercise",
+              format: "PDF",
+              date: "Oct 04",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1yRNvDHVW2K5peJfmae1O8I5Jef-BaKUH/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1yRNvDHVW2K5peJfmae1O8I5Jef-BaKUH"
             }
           ]
         },
@@ -171,7 +181,18 @@ const PORTAL_DATA = {
           instructor: "Ms. Amina Mubashar",
           creditHours: "3 (3-0)",
           description: "Grammar, academic reading, essay writing, and analytical comprehension.",
-          slides: [],
+          slides: [
+            {
+              id: "geng101-s1",
+              title: "Parts of Speech",
+              topic: "Grammar",
+              format: "PDF",
+              date: "Oct 04",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/117QtLanzbNOwrfrjlCnyJNOd5UeAccO7/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=117QtLanzbNOwrfrjlCnyJNOd5UeAccO7"
+            }
+          ],
           resources: [
             {
               id: "geng101-r1",
@@ -254,6 +275,26 @@ const PORTAL_DATA = {
               size: "Drive PDF",
               url: "https://drive.google.com/file/d/1UMesb4sgOvWfBuzmnH5ruSRk7ZrM9IHf/view?usp=drive_link",
               downloadUrl: "https://drive.google.com/uc?export=download&id=1UMesb4sgOvWfBuzmnH5ruSRk7ZrM9IHf"
+            },
+            {
+              id: "hq101-r2",
+              title: "CHP 6-7 Solved",
+              type: "Class Notes",
+              format: "PDF",
+              date: "Oct 04",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1aJuEpPbunTdX-VxBdPsQ_1DGlmZEgBFM/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1aJuEpPbunTdX-VxBdPsQ_1DGlmZEgBFM"
+            },
+            {
+              id: "hq101-r3",
+              title: "CHP 11-12 Solved",
+              type: "Class Notes",
+              format: "PDF",
+              date: "Oct 04",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1yFykSyMft9KTM7ORoBYCbhr4rc5TdvkT/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1yFykSyMft9KTM7ORoBYCbhr4rc5TdvkT"
             }
           ]
         }
