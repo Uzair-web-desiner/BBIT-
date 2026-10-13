@@ -89,7 +89,8 @@ const PORTAL_DATA = {
           description: "Introduction to management theory, planning, organizing, leading, and controlling.",
           slides: [
             { id: "pom111-s1", title: "Slide 1", topic: "Intro to Management", format: "PPTX", date: "Sep 02", size: "Google Slides", url: "https://docs.google.com/presentation/d/1QT6gnQyquRp5b4Xxr5UBT4zJVhXhDN5QR_6iklkHgX0/edit?usp=sharing", downloadUrl: "https://docs.google.com/presentation/d/1QT6gnQyquRp5b4Xxr5UBT4zJVhXhDN5QR_6iklkHgX0/export/pptx" },
-            { id: "pom111-s2", title: "CHP 2", topic: "Chapter 2", format: "PDF", date: "Sep 28", size: "Drive PDF", url: "https://drive.google.com/file/d/1fdtKLOiby4UIB9nM_dPwYul_igZOEhaT/view?usp=drive_link", downloadUrl: "https://drive.google.com/uc?export=download&id=1fdtKLOiby4UIB9nM_dPwYul_igZOEhaT" }
+            { id: "pom111-s2", title: "CHP 2", topic: "Chapter 2", format: "PDF", date: "Sep 28", size: "Drive PDF", url: "https://drive.google.com/file/d/1fdtKLOiby4UIB9nM_dPwYul_igZOEhaT/view?usp=drive_link", downloadUrl: "https://drive.google.com/uc?export=download&id=1fdtKLOiby4UIB9nM_dPwYul_igZOEhaT" },
+            { id: "pom111-s3", title: "CHP 5", topic: "Chapter 5", format: "PDF", date: "Oct 13", size: "Drive PDF", url: "https://drive.google.com/file/d/1ZZzHJGhU5H-NniwdZ87eF-6woaZhFD2S/view?usp=drive_link", downloadUrl: "https://drive.google.com/uc?export=download&id=1ZZzHJGhU5H-NniwdZ87eF-6woaZhFD2S" }
           ],
           resources: []
         },
@@ -171,6 +172,16 @@ const PORTAL_DATA = {
               size: "Drive PDF",
               url: "https://drive.google.com/file/d/1yRNvDHVW2K5peJfmae1O8I5Jef-BaKUH/view?usp=drive_link",
               downloadUrl: "https://drive.google.com/uc?export=download&id=1yRNvDHVW2K5peJfmae1O8I5Jef-BaKUH"
+            },
+            {
+              id: "gqr101-r7",
+              title: "Solved Exercise 2.1",
+              type: "Exercise",
+              format: "PDF",
+              date: "Oct 13",
+              size: "Drive PDF",
+              url: "https://drive.google.com/file/d/1yMATeD9UcST7beA52FLfz1Z8Ev3Hm3qq/view?usp=drive_link",
+              downloadUrl: "https://drive.google.com/uc?export=download&id=1yMATeD9UcST7beA52FLfz1Z8Ev3Hm3qq"
             }
           ]
         },
